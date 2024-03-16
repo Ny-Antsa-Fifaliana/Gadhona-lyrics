@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:padding="15dp"
+    tools:context=".defaultactivity.MenuActivity">
+
+
+    <Button
+        android:id="@+id/btnTononkira"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/btnMenuHeigth"
+        android:layout_marginTop="@dimen/marginTopTononkira"
+        android:drawableLeft="@drawable/ic_baseline_list_24"
+        android:fontFamily="sans-serif-light"
+        android:text="TONONKIRA"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="@android:color/transparent"
+        app:layout_constraintBottom_toTopOf="@+id/btnSokajy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnSokajy"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/btnMenuHeigth"
+        android:drawableLeft="@drawable/ic_baseline_style_24"
+        android:fontFamily="sans-serif-light"
+        android:text="SOKAJIN-KIRA"
+
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="@android:color/transparent"
+        app:layout_constraintBottom_toTopOf="@+id/btnTantara"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTononkira" />
+
+    <Button
+        android:id="@+id/btnTantara"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/btnMenuHeigth"
+        android:drawableLeft="@drawable/ic_baseline_settings_24"
+        android:fontFamily="sans-serif-light"
+        android:text="FIKIRAKIRANA"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="@android:color/transparent"
+        app:layout_constraintBottom_toTopOf="@+id/btnMombamomba"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSokajy" />
+
+    <Button
+        android:id="@+id/btnMombamomba"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/btnMenuHeigth"
+        android:layout_marginBottom="103dp"
+        android:drawableLeft="@drawable/ic_baseline_info_24"
+        android:fontFamily="sans-serif-light"
+        android:text="MOMBAMOMBA"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="#1B8D79"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTantara" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

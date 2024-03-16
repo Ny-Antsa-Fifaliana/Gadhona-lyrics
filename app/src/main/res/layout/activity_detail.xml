@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.DetailActivity"
+    android:background="?attr/leFond">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:text="Famindrapon'i Jehovah"
+        android:textColor="?attr/lacouleurTextDetaillisteLight"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:paddingLeft="15dp"
+        android:text="Gadhona Artistika"
+        android:textColor="?attr/lacouleurTextDetaillisteLight2"
+        android:textSize="18sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+
+
+            <TextView
+                android:id="@+id/textViewParole"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:text="parole"
+                android:textColor="?attr/laCouleurText"
+                android:textSize="17sp" />
+
+    </ScrollView>
+</LinearLayout>

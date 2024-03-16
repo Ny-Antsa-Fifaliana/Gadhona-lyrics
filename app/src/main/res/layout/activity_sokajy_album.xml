@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activitysokajyListe.SokajyAlbumActivity">
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/searchViewSokajyAlbum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/leFond"
+        android:paddingBottom="6dp"
+        app:iconifiedByDefault="false"
+        app:queryHint="Teny fanalahidy / mot-clé...">
+
+    </androidx.appcompat.widget.SearchView>
+
+
+    <ListView
+        android:id="@+id/lstSokajyAlbum"
+        android:layout_margin="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/leFond"/>
+
+</LinearLayout>

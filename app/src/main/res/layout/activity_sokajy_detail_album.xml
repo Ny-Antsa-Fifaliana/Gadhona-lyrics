@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activitysokajyDetail.SokajyDetailAlbumActivity">
+
+
+    <TextView
+        android:id="@+id/textViewTitleSokajyDetailAlbum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:paddingLeft="15dp"
+        android:paddingTop="5dp"
+        android:text="Famindrapon'i Jehovah"
+        android:textColor="?attr/lacouleurTextDetaillisteLight"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textViewNameSokajyDetailAlbum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:paddingLeft="15dp"
+        android:text="Gadhona Artistika"
+        android:textColor="?attr/lacouleurTextDetaillisteLight2"
+        android:textSize="24sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollViewAlbum">
+
+            <TextView
+                android:id="@+id/textViewParoleSokajyDetailAlbum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="parole"
+                android:paddingLeft="15dp"
+                android:textColor="?attr/laCouleurText"
+                android:textSize="16sp" />
+
+    </ScrollView>
+
+
+
+</LinearLayout>

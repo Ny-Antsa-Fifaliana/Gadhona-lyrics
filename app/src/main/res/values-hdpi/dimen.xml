@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--====+ density change +=====================-->
+
+    <!--====+ menuActivity +=======================-->
+    <dimen name="btnMenuHeigth">65dp</dimen>
+    <dimen name="marginTopTononkira">290dp</dimen>
+
+
+    <!--====+ mainActivity +=======================-->>
+    <dimen name="imgheightlogomain">450dp</dimen>
+
+
+    <!--====+ menuSokajyActivity +=================-->
+    <dimen name="heightmenusokajy">70dp</dimen>
+
+
+    <!--====+ mombamombaActivity +=================-->
+    <dimen name="videmombamomba">93dp</dimen>
+    <dimen name="logomombamomba">85dp</dimen>
+    <dimen name="logomombamombabottom">85dp</dimen>
+
+
+
+
+
+</resources>

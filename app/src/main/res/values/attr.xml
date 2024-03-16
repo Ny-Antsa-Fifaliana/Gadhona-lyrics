@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="dt">
+        <attr name="leFond" format="color"/>
+        <attr name="laCouleurText" format="color"/>
+        <attr name="lacouleurTextlisteLight" format="color"/>
+        <attr name="lacouleurTextlisteLight2" format="color"/>
+
+        <attr name="lacouleurTextDetaillisteLight" format="color"/>
+        <attr name="lacouleurTextDetaillisteLight2" format="color"/>
+    </declare-styleable>
+</resources>

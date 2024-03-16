@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.lyrics">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/iconlyrics1"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/iconlyrics1"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LyricsAppGA"
+        tools:targetApi="31">
+        <activity
+            android:name=".defaultactivity.ParameterActivity"
+            android:exported="false"
+            android:parentActivityName=".defaultactivity.MenuActivity"/>
+        <activity
+            android:name=".activitysokajyDetail.SokajyDetailAlbumActivity"
+            android:exported="false"
+            android:parentActivityName=".activitysokajyListe.SokajyAlbumActivity" />
+        <activity
+            android:name=".activitysokajyDetail.SokajyDetail25Activity"
+            android:exported="false"
+            android:parentActivityName=".activitysokajyListe.Sokajy25Activity" />
+        <activity
+            android:name=".activitysokajyDetail.SokajyDetail15Activity"
+            android:exported="false"
+            android:parentActivityName=".activitysokajyListe.Sokajy15Activity" />
+        <activity
+            android:name=".activitysokajyListe.SokajyAlbumActivity"
+            android:exported="false"
+            android:parentActivityName=".activitymenusokajy.MenuSokajy" />
+        <activity
+            android:name=".activitysokajyListe.Sokajy15Activity"
+            android:exported="false"
+            android:parentActivityName=".activitymenusokajy.MenuSokajy" />
+        <activity
+            android:name=".activitysokajyListe.Sokajy25Activity"
+            android:exported="false"
+            android:parentActivityName=".activitymenusokajy.MenuSokajy" />
+        <activity
+            android:name=".activitymenusokajy.MenuSokajy"
+            android:exported="false"
+            android:parentActivityName=".defaultactivity.MenuActivity" />
+        <activity
+            android:name=".activitymombamomba.MombamombaActivity"
+            android:exported="false"
+            android:parentActivityName=".defaultactivity.MenuActivity" />
+        <activity
+            android:name=".activitytantara.TantaraActivity"
+            android:exported="false"
+            android:parentActivityName=".defaultactivity.MenuActivity" />
+        <activity
+            android:name=".defaultactivity.MenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ListeActivity"
+            android:exported="false"
+            android:parentActivityName=".defaultactivity.MenuActivity" />
+        <activity
+            android:name=".activity.DetailActivity"
+            android:exported="false"
+            android:parentActivityName=".activity.ListeActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

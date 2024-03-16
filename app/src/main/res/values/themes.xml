@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.LyricsAppGA" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+
+        <item name="colorPrimary">#052C3B</item>
+        <item name="colorPrimaryDark">#052C3B</item>
+        <item name="leFond">#FFFFFF</item>
+        <item name="laCouleurText">#000000</item>
+
+        <!-- for ListeActivity -->
+        <item name="lacouleurTextlisteLight">#141438</item>
+        <item name="lacouleurTextlisteLight2">#1B8D79</item>
+
+        <!-- for DetailActivity -->
+        <item name="lacouleurTextDetaillisteLight">#084C57</item>
+        <item name="lacouleurTextDetaillisteLight2">#1B8D79</item>
+
+    </style>
+
+</resources>
